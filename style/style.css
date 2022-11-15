@@ -40,11 +40,33 @@ body {
 .link {
     /* padding-right: 2%; */
     margin: 1%;
+    z-index: 2;
 }
 .link:hover {
     background-color: #CEC8B2;
     text-decoration-color: #CEC8B2;
+    z-index: 2;
 }
+
+
+/* изменить положение картики и поправить ее полодение в блоке */
+.plant {
+    transform: rotate(214deg);
+    width: 23%;
+    margin: 0;
+    z-index: 1;
+}
+.test_block{
+    position: absolute;
+}
+.plant_pic {
+    position: relative;
+    left: auto;
+    top: auto;
+    margin: 0;
+}
+
+
 
 .border {
     display: flex;
@@ -64,6 +86,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin-top: 13%;
+    z-index: 2;
+
 }
 .for, .your_beauty{
     color: #000;
