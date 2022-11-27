@@ -54,7 +54,7 @@ body {
     margin: 0;
     z-index: 1;
 }
-.test_block{
+.plant_block{
     position: absolute;
 }
 .plant_pic {
@@ -62,6 +62,20 @@ body {
     left: auto;
     top: auto;
     margin: 0;
+}
+
+
+.plant_second {
+    /* position: relative; */
+}
+.block_second_plant {
+    position: absolute;
+    /* bottom: 13.5%; */
+}
+.second_plant_pic {
+    width: 50%;
+    position: relative;
+    left: 45%;
 }
 
 
