@@ -88,6 +88,7 @@ body {
     border: solid #CEC8B2 3px;
 }
 
+
 .summer {
     color: black;
     font-family: 'Montaga', serif;
@@ -99,7 +100,9 @@ body {
     text-align: center;
     margin-top: 13%;
     z-index: 2;
+    transition: font-size: 4rem, color: pink;
 }
+
 .for, .your_beauty{
     color: #000;
     font-family: 'La Belle Aurore', cursive;
