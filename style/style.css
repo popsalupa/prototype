@@ -176,6 +176,7 @@ body {
 
 .picture {
     width: 30%;
+  
 }
 
 .heand {
@@ -185,7 +186,7 @@ body {
     display: flex;
     width: 50%;
     transform: scaleX(-1);
-
+    border-radius: 0px 30px;
 }
 
 /* .decor_block {
@@ -198,3 +199,15 @@ body {
     height: 15%;
     border: solid 2px #000;
 } */
+
+.news_counteiner {
+    display: flex;
+}
+
+.news_bloc {
+    display: flex;
+    flex-direction: column;
+    border: solid #CEC8B2 2px;
+    width: 30%;
+    height: 30%;
+}
