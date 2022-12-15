@@ -18,10 +18,10 @@ body {
     margin-right: auto;
 }
 .header_countainer {
-    /* display: flex; */
     flex-direction: column;
     height: 2500px;
     color: #FBF8F2;
+    background: linear-gradient(45deg, beige, #fde1ee, #deecff);
     background-color: beige;
     border-radius: 20px
 }
@@ -64,10 +64,6 @@ body {
     margin: 0;
 }
 
-
-.plant_second {
-    /* position: relative; */
-}
 .block_second_plant {
     position: absolute;
     /* bottom: 13.5%; */
@@ -100,7 +96,6 @@ body {
     text-align: center;
     margin-top: 13%;
     z-index: 2;
-    transition: font-size: 4rem, color: pink;
 }
 
 .for, .your_beauty{
@@ -122,30 +117,6 @@ body {
 .blogs {
     display: flex;
 }
-
-
-.has_tooltip {
-    color: black;
-}
-.has-tooltip:hover {
-    color: red;
-  }
-.tooltip {
-    position: fixed;
-    display: none;
-    padding: 5px;
-    border: solid #CEC8B2 2px;
-    background-color: beige;
-    border-radius: 5px;
-    color: black;
-  }
-  
-  .tooltip_active {
-    display: block;
-    /* position: sticky; */
-    font-family: 'Montaga' serif;
-    font-size: 0.3em;
-  }
 
 
 .about {
@@ -192,18 +163,9 @@ body {
     border-radius: 0px 30px;
 }
 
-/* .decor_block {
-    display: block;
-    position: relative;
-    left: 70%;
-    top: 94%;
-    border-top-left-radius: 1em;
-    width: 29%;
-    height: 15%;
-    border: solid 2px #000;
-} */
 
 /* article block */
+
 .name_block_counteiner{
     display: flex;
 }
@@ -231,7 +193,7 @@ body {
     height: 30%;
     color: #000;
     box-shadow: 0.2em 0.4em 0.5em #bbb395;
-    background-color: #ecfbde;
+    background: linear-gradient(#bef98d3a, #f5e4b421);
 }
 
 .name_article {
@@ -291,4 +253,12 @@ body {
     color: #000;
     margin: 2% 2%;
     font-size: 1.3em;
+}
+
+/* footer side */
+
+.footer_counteiner {
+    display: flex;
+    color: #000;
+    margin-top: 10%;
 }
