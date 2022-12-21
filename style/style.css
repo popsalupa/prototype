@@ -95,7 +95,16 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin-top: 13%;
-    z-index: 2;
+    /* z-index: 2; */
+    opacity: 0;
+    transition: 3s ease-in-out;    
+
+}
+
+.hidden {
+    opacity: 1;
+    transform: translateY(5%);
+
 }
 
 .for, .your_beauty{
