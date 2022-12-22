@@ -10,7 +10,11 @@
 @media screen (max-width: 1024px) {
 
 } */
-
+@media (max-width: 375px) {
+    .links {
+        font-size: 50%;
+    }
+}
 
 body {
     background-color: #ffffff;
@@ -58,18 +62,20 @@ body {
     position: absolute;
 }
 .plant_pic {
-    position: relative;
+    /* position: relative; */
     left: auto;
     top: auto;
     margin: 0;
 }
 
 .block_second_plant {
-    position: absolute;
-    /* bottom: 13.5%; */
+    display: block;
+    position: relative;
+    bottom: 13.5%;
 }
 .second_plant_pic {
-    width: 50%;
+    /* position: absolute; */
+    width: 30%;
     position: relative;
     left: 45%;
 }
@@ -95,15 +101,9 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin-top: 13%;
-    /* z-index: 2; */
-    opacity: 0;
-    transition: 3s ease-in-out;    
-
-}
-
-.hidden {
     opacity: 1;
-    transform: translateY(5%);
+    transition: 3s ease-in-out;
+    z-index: 2;    
 
 }
 
@@ -170,6 +170,12 @@ body {
     width: 50%;
     transform: scaleX(-1);
     border-radius: 0px 30px;
+    opacity: 0;
+    transition: 2s;
+}
+.heand_active {
+    opacity: 1;
+    transition: 2s;
 }
 
 
@@ -192,7 +198,9 @@ body {
     width: 75%;
     align-items: center;
     margin-top: 2%;
+    opacity: 1;
 }
+
 
 .news_bloc {
     display: flex;
