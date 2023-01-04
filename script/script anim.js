@@ -13,3 +13,18 @@ window.addEventListener('scroll', function() {
         }
     }
 });
+
+const articlePic = document.querySelectorAll('.picture_block');
+const scrollView = window.innerHeight;
+
+window.addEventListener('scroll', function() {
+    for (let key of articlePic) {
+        let position = { top, bottom} = key.getBoundingClientRect();
+
+        if ((scrollView - position.top - 600 >= 0) && (position.bottom - 350 >= 0)) {
+            key.classList.add('picture_block');
+        } else {
+            key.classList.remove('picture_block_active');
+        }
+    }
+});

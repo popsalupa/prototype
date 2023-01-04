@@ -236,8 +236,13 @@ body {
     display: flex;
     margin-top: 2%;
     align-items: center;
+    opacity: 0;
     /* width: 80%;
     height: 80%; */
+}
+.picture_block_active {
+    opacity: 1;
+    transition: 2s;
 }
 
 .article_pic{
@@ -245,6 +250,7 @@ body {
     max-height: 15em;
     margin: 0 auto;
 }
+
 
 /* history block */
 .mini_history_counteiner{
