@@ -30,15 +30,24 @@ body {
     border-radius: 20px
 }
 
-.links, a {
+.links, a , .link {
     display: flex;
     justify-content: end;
     color: #000;
     font-family: 'Barlow', sans-serif;
     text-transform: uppercase;
-    font-size: 85%;
+    font-size: 100%;
     text-decoration: none;
     margin-right: 2%;
+}
+.main_menu {
+    flex-direction: column;
+    text-decoration: none;
+    /* display: none; */
+}
+.first_block {
+    position: absolute;
+    text-decoration: none;
 }
 
 .link {
